@@ -11,10 +11,10 @@ export PATH=$PATH:~/.cargo/bin/
 alias vim="nvim"
 alias c='clear'
 alias jn='jj new -m'
-alias cd='z'
 
 alias nvcfg='cd ~/.config/nvim && nvim'
 
+alias cd='z'
 # JJ aliases
 alias jb='jj bookmark'
 # Load and initialise completion system
