@@ -10,8 +10,8 @@ plug "zsh-users/zsh-completions"
 export PATH=$PATH:~/.cargo/bin/
 alias vim="nvim"
 alias c='clear'
-alias cd='z'
 alias jn='jj new -m'
+alias cd='z'
 
 alias nvcfg='cd ~/.config/nvim && nvim'
 
