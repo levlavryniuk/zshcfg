@@ -21,7 +21,8 @@ alias ls='exa --group-directories-first --icons'
 # alias glp='git log --pretty=format:"%h - %an : %s"'
 
 glog() {
-    git log --pretty=format:"%h - %an : %s" -n $1
+  local commit_count=${1:-5}
+  git log --color=auto --pretty=format:"%C(yellow)%h %C(cyan)- %C(reset)%an %C(magenta)(%ad)%C(reset) : %C(green)%s%C(reset)" --date="format:%b %d, %H:%M" -n "$commit_count"
 }
 
 alias zshcfg='cd ~ && nvim ~/.zshrc'
