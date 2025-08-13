@@ -10,6 +10,8 @@ plug "zsh-users/zsh-completions"
 export PATH=$PATH:~/.cargo/bin/
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export FLYCTL_INSTALL="/home/levi/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 alias vim="nvim"
 alias c='clear'
